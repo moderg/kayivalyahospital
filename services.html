@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Services | Kaivalya Ayurveda Hospital</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+:root{
+    --primary:#0b5d1e;
+    --light:#f7faf7;
+    --dark:#1e1e1e;
+}
+
+body{
+    font-family:'Segoe UI',sans-serif;
+    background:#fff;
+    color:#333;
+}
+
+.navbar{
+    background:var(--primary);
+}
+
+.navbar-brand,
+.nav-link{
+    color:white !important;
+    font-weight:500;
+}
+
+.hero{
+    height:55vh;
+    background:
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url('https://images.unsplash.com/photo-1519823551278-64ac92734fb1');
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:white;
+}
+
+.hero h1{
+    font-size:3.8rem;
+    font-weight:700;
+}
+
+.hero p{
+    font-size:1.2rem;
+}
+
+.section-title{
+    color:var(--primary);
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.service-card{
+    background:white;
+    border-radius:18px;
+    padding:30px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    height:100%;
+    transition:.3s;
+}
+
+.service-card:hover{
+    transform:translateY(-8px);
+}
+
+.service-icon{
+    font-size:50px;
+    margin-bottom:15px;
+}
+
+.bg-light-green{
+    background:var(--light);
+}
+
+.cta{
+    background:var(--primary);
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+}
+
+.btn-book{
+    background:white;
+    color:var(--primary);
+    border-radius:30px;
+    padding:12px 28px;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.footer{
+    background:#063412;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg">
+<div class="container">
+
+<a class="navbar-brand" href="index.html">
+Kaivalya Ayurveda
+</a>
+
+<button class="navbar-toggler bg-light"
+data-bs-toggle="collapse"
+data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link" href="index.html">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="about.html">About</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link active" href="services.html">Services</a>
+</li>
+
+
+
+<li class="nav-item">
+<a class="nav-link" href="contact.html">Contact</a>
+</li>
+
+</ul>
+
+</div>
+</div>
+</nav>
+
+<!-- Hero -->
+
+<section class="hero">
+
+<div class="container">
+
+<h1>Our Treatments & Services</h1>
+
+<p>
+Authentic Ayurveda • Holistic Wellness • Personalized Healing
+</p>
+
+</div>
+
+</section>
+
+<!-- Intro -->
+
+<section class="py-5">
+
+<div class="container text-center">
+
+<h2 class="section-title">
+Comprehensive Ayurvedic Healthcare
+</h2>
+
+<p>
+Kaivalya Ayurveda Hospital offers personalized treatment programs
+designed to restore balance, prevent disease, and enhance overall
+well-being through the timeless principles of Ayurveda.
+</p>
+
+</div>
+
+</section>
+
+<!-- Services -->
+
+<section class="py-5 bg-light-green">
+
+<div class="container">
+
+<div class="row g-4">
+
+<!-- Service 1 -->
+<div class="col-md-4">
+<div class="service-card">
+<div class="service-icon">🌿</div>
+<h4>Panchakarma Therapy</h4>
+<p>
+Traditional detoxification and purification treatments that remove toxins,
+restore balance, and rejuvenate the body.
+</p>
+</div>
+</div>
+
+<!-- Service 2 -->
+<div class="col-md-4">
+<div class="service-card">
+<div class="service-icon">💆</div>
+<h4>Rejuvenation Therapy</h4>
+<p>
+Specialized therapies that improve vitality, immunity, energy levels,
+and overall wellness.
+</p>
+</div>
+</div>
+
+<!-- Service 3 -->
+<div class="col-md-4">
+<div class="service-card">
+<div class="service-icon">🧘</div>
+<h4>Stress Management</h4>
+<p>
+Ayurveda, Yoga, and Meditation programs designed to reduce stress,
+anxiety, and mental fatigue.
+</p>
+</div>
+</div>
+
+<!-- Service 4 -->
+<div class="col-md-4">
+<div class="service-card">
+<div class="service-icon">❤️</div>
+<h4>Lifestyle Disease Care</h4>
+<p>
+Supportive treatment for diabetes, hypertension, obesity,
+and metabolic disorders.
+</p>
+</div>
+</div>
+
+<!-- Service 5 -->
+<div class="col-md-4">
+<div class="service-card">
+<div class="service-icon">🦴</div>
+<h4>Joint & Arthritis Care</h4>
+<p>
+Holistic therapies for arthritis, back pain, cervical issues,
+and musculoskeletal disorders.
+</p>
+</div>
+</div>
+
+<!-- Service 6 -->
+<div class="col-md-4">
+<div class="service-card">
+<div class="service-icon">👴</div>
+<h4>Geriatric Care</h4>
+<p>
+Specialized healthcare programs for healthy aging and improved
+quality of life.
+</p>
+</div>
+</div>
+
+<!-- Service 7 -->
+<div class="col-md-4">
+<div class="service-card">
+<div class="service-icon">⚖️</div>
+<h4>Weight Management</h4>
+<p>
+Natural and sustainable weight loss programs based on Ayurvedic
+diet and lifestyle principles.
+</p>
+</div>
+</div>
+
+<!-- Service 8 -->
+<div class="col-md-4">
+<div class="service-card">
+<div class="service-icon">✨</div>
+<h4>Skin & Hair Care</h4>
+<p>
+Traditional therapies and herbal treatments for healthy skin,
+hair, and beauty enhancement.
+</p>
+</div>
+</div>
+
+<!-- Service 9 -->
+<div class="col-md-4">
+<div class="service-card">
+<div class="service-icon">🌞</div>
+<h4>Naturopathy & Wellness</h4>
+<p>
+Natural healing techniques that complement Ayurvedic treatments
+for holistic wellness.
+</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Why Our Treatments -->
+
+<section class="py-5">
+
+<div class="container">
+
+<h2 class="section-title text-center">
+Why Our Treatments Are Different
+</h2>
+
+<div class="row mt-5">
+
+<div class="col-md-3 text-center">
+<h4>✓</h4>
+<h5>Personalized Care</h5>
+<p>Customized treatment based on Prakriti analysis.</p>
+</div>
+
+<div class="col-md-3 text-center">
+<h4>✓</h4>
+<h5>Authentic Ayurveda</h5>
+<p>Classical Kerala Ayurvedic healing protocols.</p>
+</div>
+
+<div class="col-md-3 text-center">
+<h4>✓</h4>
+<h5>Expert Team</h5>
+<p>Experienced physicians and therapists.</p>
+</div>
+
+<div class="col-md-3 text-center">
+<h4>✓</h4>
+<h5>Holistic Wellness</h5>
+<p>Mind, body, and spiritual well-being approach.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CTA -->
+
+<section class="cta">
+
+<div class="container">
+
+<h2>
+Book Your Consultation Today
+</h2>
+
+<p class="mt-3 mb-4">
+Start your journey toward natural healing and lifelong wellness.
+</p>
+
+<a href="https://wa.me/919778791900" class="btn-book" target="_blank">
+Schedule Appointment
+</a>
+
+</div>
+
+</section>
+
+<!-- Footer -->
+
+<footer class="footer">
+
+<p>
+© 2026 Kaivalya Ayurveda Hospital. All Rights Reserved.
+</p>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
